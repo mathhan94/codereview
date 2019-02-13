@@ -2,9 +2,7 @@
 #include "./shopping.h"
 
 int main(int argc, char* argv[]) {
-  Goods goods1;
-  Goods goods2;
-  Goods goods3;
+  Goods goods1, goods2, goods3;
   Shopping shoppingList;
 
   goods1.SetGoodsInfo(2, 3000);
